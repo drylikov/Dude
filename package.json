@@ -1,0 +1,25 @@
+{
+  "name": "dude",
+  "description": "Lebowski Ipsum generator for the command line",
+  "version": "0.0.1",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "commander": ">= 0.3.2",
+    "request": "~2.1.1"
+  },
+  "engines": {
+    "node": ">= 0.4.2"
+  },
+  "bin": {
+    "dude": "./bin/dude"
+  },
+  "preferGlobal": true
+}
